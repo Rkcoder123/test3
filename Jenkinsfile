@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         TARGET_DIR = 'D:/piplinejenkinsWebsite'  // IIS deployment folder
-        APP_POOL = 'jenikinspipe'        // IIS App Pool Name
-        SITE_NAME = 'jenikinspipe'       // IIS Site Name (optional)
+        APP_POOL = 'Testing'        // IIS App Pool Name
+        SITE_NAME = 'Testing'       // IIS Site Name (optional)
     }
 
     stages {
