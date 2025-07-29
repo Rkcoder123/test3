@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TARGET_DIR = 'D:\piplinejenkinsWebsite'  // IIS deployment folder
+        TARGET_DIR = 'D:/piplinejenkinsWebsite'  // IIS deployment folder
         APP_POOL = 'jenikinspipe'        // IIS App Pool Name
         SITE_NAME = 'jenikinspipe'       // IIS Site Name (optional)
     }
